@@ -3,13 +3,13 @@
 pkgname=cachyos-kde-settings
 pkgdesc='CachyOS KDE settings'
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
 license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('3c8d3e5bb0220a7e352673e3166305f934dee54fc6b4afd3271bca1c862494fd884983627099916d20e282e58142b1a3925ecb577b383d1f88f7d05143577046')
+sha512sums=('f6a1a83d5f7ac43fc0f26d3fa479064497b5fb124b582d1d65fc55b896f8b1f9aa7b2661e6432a45829640e063873169c72ae04e7bbd7a02c7f3a829426394f0')
 depends=('cachyos-zsh-config'
          'lightly-git'
          'kvantum-qt5'
@@ -36,6 +36,4 @@ conflicts=('cachyos-desktop-settings')
 package() {
     install -d $pkgdir/etc
     cp -rf $srcdir/$pkgname-$pkgver/etc $pkgdir
-    install -d $pkgdir/usr
-    cp -rf $srcdir/$pkgname-$pkgver/usr $pkgdir
 }
