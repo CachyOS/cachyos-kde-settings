@@ -1,0 +1,7 @@
+[General]
+AutoExpandFolders=true
+ShowToolTips=true
+ShowZoomSlider=false
+
+[MainWindow]
+MenuBar=Disabled
