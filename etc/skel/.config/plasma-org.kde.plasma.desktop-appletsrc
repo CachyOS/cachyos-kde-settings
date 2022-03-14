@@ -210,7 +210,7 @@ DialogWidth=720
 PreloadWeight=34
 
 [Containments][33][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/BlueFeathers/contents/images/3840x2160.png
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/BlueFeathers.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
