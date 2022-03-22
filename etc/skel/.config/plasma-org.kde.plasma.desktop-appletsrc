@@ -1,5 +1,4 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -20,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][19][Applets][20][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 immutability=1
 
 [Containments][19][Applets][20][Configuration][ConfigDialog]
@@ -71,6 +70,9 @@ immutability=1
 
 [Containments][19][Applets][22][Configuration][Configuration]
 PreloadWeight=0
+
+[Containments][19][Applets][22][Configuration][General]
+launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://browser,preferred://filemanager
 
 [Containments][19][Applets][23]
 immutability=1
@@ -188,13 +190,13 @@ PreloadWeight=26
 PreloadWeight=26
 
 [Containments][25][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 
-[Containments][33]
+[Containments][35]
 ItemGeometries-1024x768=
 ItemGeometriesHorizontal=
-activityId=95cfd7e9-6114-406b-ba60-2ba0f0ae817d
+activityId=e596d839-186d-4b0d-bf1a-ea718088af0b
 formfactor=0
 immutability=1
 lastScreen=0
@@ -202,15 +204,13 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][33][ConfigDialog]
+[Containments][35][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][33][Configuration]
-PreloadWeight=34
-
-[Containments][33][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/cachyos-wallpapers/BlueFeathers.png
+[Containments][35][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/cachyos-wallpapers/BlueFeathers.png
+SlidePaths=/usr/share/wallpapers
 
 [ScreenMapping]
 itemsOnDisabledScreens=
