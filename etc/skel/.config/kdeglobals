@@ -34,48 +34,6 @@ ForegroundNormal=49,181,235
 ForegroundPositive=24,165,222
 ForegroundVisited=77,0,250
 
-[Colors:Complementary]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,209
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
-[Colors:Header]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,207
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
-[Colors:Header][Inactive]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,206
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
 [Colors:Selection]
 BackgroundAlternate=109,188,220
 BackgroundNormal=71,173,214
@@ -133,9 +91,9 @@ ForegroundPositive=24,165,222
 ForegroundVisited=179,13,191
 
 [General]
+BrowserApplication=cachy-browser.desktop
 ColorScheme=CachyOSNord
 Name=CachyOSNord
-XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Monospace,10,-1,5,50,0,0,0,0,0
@@ -150,9 +108,9 @@ widgetStyle=Lightly
 Theme=char-white
 
 [KDE]
-ColorScheme=BreezeLight
-LookAndFeelPackage=com.cachyos.ddh4r4m.nord
-contrast=0
+AnimationDurationFactor=2
+ColorScheme=CachyOSNord
+contrast=4
 widgetStyle=Lightly
 
 [WM]

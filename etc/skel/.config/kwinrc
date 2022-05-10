@@ -1,10 +1,14 @@
 [Compositing]
 GLCore=true
+LatencyPolicy=Low
 OpenGLIsUnsafe=false
 
 [Desktops]
-Id_1=32352b1b-0b40-48e5-8c97-88d4a2e59190
-Number=1
+Id_1=1a831ee1-83fa-455a-aa49-81ac9129a9e4
+Id_2=ece4b158-9b1e-4b8c-8a25-909cf77858af
+Name_1=Desktop
+Name_2=Offscreen
+Number=2
 Rows=1
 
 [Effect-Blur]
@@ -20,6 +24,12 @@ InDistance=50
 InRotationAngle=0
 OutDistance=35
 OutRotationAngle=0
+
+[Effect-Overview]
+BorderActivate=7
+
+[Effect-PresentWindows]
+BorderActivateAll=9
 
 [Effect-Wobbly]
 Drag=85
@@ -42,6 +52,8 @@ kwin4_effect_windowapertureEnabled=false
 lattewindowcolorsEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
+overviewEnabled=true
+slidingpopupsEnabled=false
 wobblywindowsEnabled=true
 
 [Script-forceblur]

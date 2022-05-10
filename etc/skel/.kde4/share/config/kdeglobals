@@ -1,9 +1,11 @@
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=23,23,23
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -23,48 +25,6 @@ BackgroundAlternate=64,69,82
 BackgroundNormal=30,34,51
 DecorationFocus=109,188,209
 DecorationHover=102,194,242
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
-[Colors:Complementary]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,209
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
-[Colors:Header]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,207
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=0,168,255
-ForegroundNegative=72,172,199
-ForegroundNeutral=255,106,0
-ForegroundNormal=49,181,235
-ForegroundPositive=24,165,222
-ForegroundVisited=77,0,250
-
-[Colors:Header][Inactive]
-BackgroundAlternate=64,69,82
-BackgroundNormal=30,34,51
-DecorationFocus=109,188,209
-DecorationHover=136,192,206
 ForegroundActive=61,174,233
 ForegroundInactive=102,106,115
 ForegroundLink=0,168,255
@@ -136,24 +96,27 @@ ColorScheme=CachyOSNord
 Name=CachyOSNord
 XftHintStyle=hintslight
 XftSubPixel=rgb
+fixed=Monospace,10,-1,5,50,0,0,0,0,0
+font=Fira Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Fira Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=Lightly
 
 [Icons]
 Theme=char-white
 
 [KDE]
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
-contrast=0
-
-[Toolbar style]
-ToolButtonStyle=TextBesideIcon
-ToolButtonStyleOtherToolbars=TextBesideIcon
+AnimationDurationFactor=2
+ColorScheme=CachyOSNord
+contrast=4
+widgetStyle=Lightly
 
 [WM]
 activeBackground=12,14,20
 activeBlend=22,25,37
+activeFont=Fira Sans,11,-1,5,57,0,0,0,0,0,Medium
 activeForeground=105,195,219
 inactiveBackground=22,25,37
 inactiveBlend=22,25,37
