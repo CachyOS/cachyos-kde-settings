@@ -2,7 +2,7 @@
 
 pkgname=cachyos-kde-settings
 pkgdesc='CachyOS KDE settings'
-pkgver=1.0.3
+pkgver=1.0.6
 pkgrel=1
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
@@ -28,7 +28,7 @@ depends=('cachyos-zsh-config'
          'capitaine-cursors'
          'cachyos-nord-kde-theme-git'
          'cachyos-wallpapers'
-         'nordic-theme-git')
+         'cachyos-nord-gtk-theme-git')
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
 conflicts=('cachyos-desktop-settings')
