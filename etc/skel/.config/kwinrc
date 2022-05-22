@@ -67,7 +67,7 @@ LayoutName=com.cachyos.ddh4r4m.nord
 TouchBorderActivate=9
 
 [Windows]
-BorderlessMaximizedWindows=true
+BorderlessMaximizedWindows=false
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI
