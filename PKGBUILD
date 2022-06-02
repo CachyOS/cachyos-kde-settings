@@ -28,7 +28,7 @@ depends=('cachyos-zsh-config'
          'capitaine-cursors'
          'cachyos-nord-kde-theme-git'
          'cachyos-wallpapers'
-         'nordic-theme-git')
+         'cachyos-nord-gtk-theme-git')
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
 conflicts=('cachyos-desktop-settings')
