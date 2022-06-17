@@ -3,7 +3,7 @@
 pkgname=cachyos-kde-settings
 pkgdesc='CachyOS KDE settings'
 pkgver=1.0.7
-pkgrel=1
+pkgrel=2
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
 license=('GPL')
