@@ -43,6 +43,7 @@ flipswitchEnabled=true
 force-decorations-gtk3Enabled=false
 forceblurEnabled=true
 hide-titlesEnabled=false
+kwin4_effect_lightlyshadersEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
