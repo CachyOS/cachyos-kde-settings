@@ -134,6 +134,7 @@ ForegroundVisited=179,13,191
 
 [General]
 BrowserApplication=cachy-browser.desktop
+ ColorScheme=CachyOSNordLightly
 ColorSchemeHash=754739c1b74d958218dbfdd38196821b08df861d
 Name=CachyOSNord
 TerminalApplication=alacritty
@@ -149,30 +150,13 @@ smallestReadableFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 toolBarFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=Lightly
 
+[Icons]
+Theme=char-white
+
 [KDE]
 ColorScheme=CachyOSNord
 LookAndFeelPackage=com.cachyos.ddh4r4m.nord
 contrast=0
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=101
-View Style=DetailTree
 
 [WM]
 activeBackground=30,34,51,204
