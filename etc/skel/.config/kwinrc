@@ -1,3 +1,6 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id
+
 [Compositing]
 GLCore=true
 LatencyPolicy=Low
@@ -5,10 +8,8 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=1a831ee1-83fa-455a-aa49-81ac9129a9e4
-Id_2=ece4b158-9b1e-4b8c-8a25-909cf77858af
 Name_1=Desktop
-Name_2=Offscreen
-Number=2
+Number=1
 Rows=1
 
 [Effect-Blur]
@@ -36,26 +37,41 @@ Drag=85
 Stiffness=10
 WobblynessLevel=1
 
+[Effect-blur]
+NoiseStrength=0
+TabBox=true
+zPosition=815
+
+[Effect-glide]
+Duration=90
+InDistance=50
+InRotationAngle=0
+OutDistance=35
+OutRotationAngle=0
+
+[Effect-presentwindows]
+BorderActivateAll=9
+
+[Effect-wobblywindows]
+Drag=85
+Stiffness=10
+WobblynessLevel=1
+
 [Plugins]
-blurEnabled=true
 coverswitchEnabled=true
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=false
 forceblurEnabled=true
 hide-titlesEnabled=false
-kwin4_effect_lightlyshadersEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
-kwin4_effect_windowapertureEnabled=false
 lattewindowcolorsEnabled=true
-magiclampEnabled=true
 minimizeallEnabled=false
 overviewEnabled=true
-slidingpopupsEnabled=false
-wobblywindowsEnabled=true
+tilegapsEnabled=true
 
 [Script-forceblur]
 blurExceptMatching=true
@@ -67,11 +83,12 @@ BorderActivate=9
 LayoutName=com.cachyos.ddh4r4m.nord
 TouchBorderActivate=9
 
+[TabBoxAlternative]
+LayoutName=com.cachyos.ddh4r4m.nord
+
 [Windows]
 BorderlessMaximizedWindows=false
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=XAI
-ButtonsOnRight=
 library=org.kde.lightly
 theme=Lightly
