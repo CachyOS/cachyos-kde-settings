@@ -90,8 +90,8 @@ ForegroundVisited=179,13,191
 
 [General]
 BrowserApplication=cachy-browser.desktop
-ColorScheme=CachyOSNord
-Name=CachyOSNord
+ColorScheme=CachyOSNordLightly
+Name=CachyOSNordLightly
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Monospace,10,-1,5,50,0,0,0,0,0
@@ -108,7 +108,7 @@ Theme=char-white
 [KDE]
 AnimationDurationFactor=2
 ColorScheme=CachyOSNord
-contrast=4
+contrast=0
 widgetStyle=Lightly
 
 [WM]
