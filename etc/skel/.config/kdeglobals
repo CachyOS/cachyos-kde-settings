@@ -137,11 +137,8 @@ BrowserApplication=cachy-browser.desktop
 ColorScheme=CachyOSNordLightly
 ColorSchemeHash=754739c1b74d958218dbfdd38196821b08df861d
 Name=CachyOSNord
-TerminalApplication=alacritty
-TerminalService=alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-accentColorFromWallpaper=false
 fixed=Monospace,10,-1,5,50,0,0,0,0,0
 font=Fira Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
@@ -152,12 +149,6 @@ widgetStyle=Lightly
 
 [Icons]
 Theme=char-white
-
-[KDE]
-ColorScheme=CachyOSNord
-LookAndFeelPackage=org.kde.breezedark.desktop
-contrast=0
-widgetStyle=Lightly
 
 [WM]
 activeBackground=30,34,51,204
