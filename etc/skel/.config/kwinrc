@@ -1,3 +1,6 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id
+
 [Compositing]
 GLCore=true
 LatencyPolicy=Low
@@ -46,13 +49,25 @@ InRotationAngle=0
 OutDistance=35
 OutRotationAngle=0
 
+[Effect-overview]
+BorderActivate=7
+
 [Effect-presentwindows]
 BorderActivateAll=9
 
 [Effect-wobblywindows]
+BorderActivateAll=9
 Drag=85
+Duration=90
+InDistance=50
+InRotationAngle=0
+NoiseStrength=0
+OutDistance=35
+OutRotationAngle=0
 Stiffness=10
+TabBox=true
 WobblynessLevel=1
+zPosition=815
 
 [Plugins]
 blurEnabled=true
@@ -64,15 +79,15 @@ hide-titlesEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
-kwin4_effect_squashEnabled=false
 kwin4_effect_lightlyshadersEnabled=true
+kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
-slidingpopupsEnabled=false
-wobblywindowsEnabled=true
 lattewindowcolorsEnabled=true
 minimizeallEnabled=false
 overviewEnabled=true
+slidingpopupsEnabled=false
+wobblywindowsEnabled=true
 
 [Script-forceblur]
 blurExceptMatching=true
