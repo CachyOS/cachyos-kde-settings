@@ -5,10 +5,8 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=1a831ee1-83fa-455a-aa49-81ac9129a9e4
-Id_2=ece4b158-9b1e-4b8c-8a25-909cf77858af
 Name_1=Desktop
-Name_2=Offscreen
-Number=2
+Number=1
 Rows=1
 
 [Effect-Blur]

@@ -1,2 +1,5 @@
+[Theme]
+name=CachyOS-Nord-round
+
 [Wallpapers]
-usersWallpapers=/usr/share/wallpapers/
+usersWallpapers=/usr/share/wallpapers/cachyos-wallpapers/Abstract.png
