@@ -139,12 +139,7 @@ ForegroundVisited=179,13,191
 ColorScheme=CachyOSNord
 ColorSchemeHash=754739c1b74d958218dbfdd38196821b08df861d
 Name=Breeze Light
-fixed=Fira Sans,10,-1,5,50,0,0,0,0,0
-font=Fira Sans,10,-1,5,50,0,0,0,0,0
-menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Fira Sans,8,-1,5,50,0,0,0,0,0
-toolBarFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
@@ -159,7 +154,6 @@ widgetStyle=Lightly
 [WM]
 activeBackground=12,14,20
 activeBlend=22,25,37
-activeFont=Fira Sans,11,-1,5,50,0,0,0,0,0
 activeForeground=105,195,219
 inactiveBackground=22,25,37
 inactiveBlend=22,25,37
