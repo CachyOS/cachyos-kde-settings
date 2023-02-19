@@ -1,9 +1,14 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -131,59 +136,11 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorScheme=BreezeDark
-Name=Breeze Dark
-Name[ar]=نسيم داكن
-Name[az]=Breeze - Tünd
-Name[bs]=Breeze tamna
-Name[ca]=Brisa fosca
-Name[ca@valencia]=Brisa fosca
-Name[cs]=Breeze Tmavé
-Name[da]=Breeze Dark
-Name[de]=Breeze Dunkel
-Name[el]=Breeze σκούρο
-Name[en_GB]=Breeze Dark
-Name[es]=Brisa oscuro
-Name[et]=Breeze tume
-Name[eu]=Breeze iluna
-Name[fi]=Tumma Breeze
-Name[fr]=Brise sombre
-Name[gl]=Breeze Dark
-Name[he]=Breeze Dark
-Name[hi]=ब्रीज़ गहरा
-Name[hu]=Breeze Dark
-Name[ia]=Brisa obscure
-Name[id]=Breeze Gelap
-Name[it]=Brezza scuro
-Name[ja]=Breeze ダーク
-Name[ko]=어두운 Breeze
-Name[lt]=Breeze tamsus
-Name[nb]=Breeze mørk
-Name[nl]=Breeze Dark
-Name[nn]=Breeze mørk
-Name[pa]=ਬਰੀਜ਼ ਗੂੜ੍ਹਾ
-Name[pl]=Ciemna Bryza
-Name[pt]=Brisa Escura
-Name[pt_BR]=Breeze Dark
-Name[ro]=Briză, întunecat
-Name[ru]=Breeze, тёмный вариант
-Name[sk]=Tmavý vánok
-Name[sl]=Sapica temna
-Name[sr]=Поветарац тамни
-Name[sr@ijekavian]=Поветарац тамни
-Name[sr@ijekavianlatin]=Povetarac tamni
-Name[sr@latin]=Povetarac tamni
-Name[sv]=Breeze mörk
-Name[tg]=Насими торик
-Name[tr]=Koyu Esinti
-Name[uk]=Темна Breeze
-Name[x-test]=xxBreeze Darkxx
-Name[zh_CN]=Breeze 微风深色
-Name[zh_TW]=Breeze Dark
-shadeSortColumn=true
+ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
 
 [KDE]
-contrast=4
+AnimationDurationFactor=0.5
+LookAndFeelPackage=org.kde.breezedark.desktop
 
 [WM]
 activeBackground=49,54,59

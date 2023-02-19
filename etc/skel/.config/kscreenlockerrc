@@ -1,6 +1,2 @@
-[Daemon]
-LockGrace=60
-Timeout=20
-
-[Greeter]
-Theme=com.cachyos.ddh4r4m.nord
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
