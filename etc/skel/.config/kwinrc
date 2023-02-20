@@ -1,3 +1,6 @@
+[Compositing]
+LatencyPolicy=Low
+
 [Desktops]
 Id_1=0b02fd2a-a17c-4f53-9173-e49681130229
 Number=1

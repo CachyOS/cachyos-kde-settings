@@ -38,6 +38,7 @@ PreloadWeight=100
 
 [Containments][20][Applets][21][Configuration][General]
 favoritesPortedToKAstats=true
+icon=org.cachyos.hello
 
 [Containments][20][Applets][21][Configuration][Shortcuts]
 global=Alt+F1
