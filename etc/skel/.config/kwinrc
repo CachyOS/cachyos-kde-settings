@@ -9,9 +9,8 @@ Rows=1
 [Tiling]
 padding=4
 
-[Tiling][9350f969-92d0-5658-bb27-639b07d90acc]
+[Tiling][062980e3-53f8-5c27-a7b9-b15910188c18]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
+[Tiling][9350f969-92d0-5658-bb27-639b07d90acc]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
