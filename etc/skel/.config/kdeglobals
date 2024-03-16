@@ -5,4 +5,5 @@ ColorScheme=BreezeDark
 Theme=breeze-dark
 
 [KDE]
+AnimationDurationFactor=0.25
 widgetStyle=Breeze
