@@ -29,6 +29,7 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.kickoff
 
+
 [Containments][23][Applets][24][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -129,6 +130,11 @@ plugin=org.kde.plasma.brightness
 [Containments][29][Applets][42]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][4][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/cachyos-wallpapers/north.png
+PreviewImage=/usr/share/wallpapers/cachyos-wallpapers/north.png
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][29][General]
 extraItems=org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
